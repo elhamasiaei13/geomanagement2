@@ -2,14 +2,25 @@
   "name": "geomanagement2-fe",
   "version": "0.1.0",
   "private": true,
+  "proxy": "http://192.168.19.28:8092",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.9",
     "@testing-library/react": "^11.2.5",
     "@testing-library/user-event": "^12.8.1",
+    "antd": "^4.13.1",
+    "axios": "^0.21.1",
+    "formik": "^2.2.6",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-query": "^3.12.1",
+    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
-    "web-vitals": "^1.1.0"
+    "react-select": "^4.2.1",
+    "react-select2": "^4.0.3",
+    "react-toastify": "^7.0.3",
+    "select2": "^4.1.0-rc.0",
+    "web-vitals": "^1.1.0",
+    "yup": "^0.27.0"
   },
   "scripts": {
     "start": "react-scripts start",
